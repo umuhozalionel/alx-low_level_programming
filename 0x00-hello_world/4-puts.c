@@ -1,4 +1,4 @@
-#inude <stdio.h>
+#include <stdio.h>
 /**
  * main - maim funcyion where everything supposed to take place
  *
@@ -7,6 +7,6 @@
  */
 int main (void)
 {
-	put s ("\" programming is like building a multilangural puzzle");
+	put s("\" programming is like building a multilangural puzzle");
 	return (0);
 }

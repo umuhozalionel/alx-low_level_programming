@@ -2,7 +2,7 @@
 /**
  * main - main funcyion where everything supposed to take place
  *
- * return: alwayas 0
+ * Return: alwayas 0
  *
  */
 

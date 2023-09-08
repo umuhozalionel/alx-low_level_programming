@@ -2,9 +2,10 @@
 /**
  * main - main funcyion where everything supposed to take place
  *
- * return: always 0
+ * return: alwayas 0
  *
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

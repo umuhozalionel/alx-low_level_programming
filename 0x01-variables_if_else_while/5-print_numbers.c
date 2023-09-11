@@ -4,16 +4,16 @@
 /**
  * main - main function
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char x;
+	int x;
 
-	for (x = 'a' ; x <= 'z' ; x++)
-		if (x != 'q' && x != 'e')
-			putchar(x);
-	putchar('\n');
+	for (x = 0 ; x < 10 ; x++)
+		printf("%d", x);
+
+	printf("\n");
 	return (0);
 }

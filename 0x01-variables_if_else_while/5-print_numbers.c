@@ -2,20 +2,20 @@
 
 
 /**
- * main - main function block
+ * main - program that prints the alphabet in lowercase and upper case
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char x;
+	char letter;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 
 	{
-	if (x != 'e' && x != 'q')
-	putchar(x);
+	if (letter != 'e' && letter != 'q')
+	putchar(letter);
 	}
 
 	putchar('\n');

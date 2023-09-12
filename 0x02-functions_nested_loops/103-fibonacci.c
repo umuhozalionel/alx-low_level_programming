@@ -5,6 +5,7 @@
   * main - main function 
   * Return: 0
   */
+
 int main(void)
 {
 	int limit = 4000000;

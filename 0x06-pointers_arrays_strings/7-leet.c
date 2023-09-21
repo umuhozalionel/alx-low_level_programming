@@ -18,7 +18,7 @@ char *leet(char *c)
 		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
 			/*32 is the difference between lowercase letters and uppercase letters*/
-			if (*c == key[i] + 32)
+			if (*c == key[i] || *c == key[i] + 32)
 			{
 				*c = 48 + value[i];
 			}

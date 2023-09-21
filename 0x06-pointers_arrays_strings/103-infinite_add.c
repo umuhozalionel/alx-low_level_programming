@@ -6,7 +6,7 @@
  * @n2: second number
  * @r: result
  * @size_r: buffer size
- * Return: sum
+ * Return: r
  *
  */
 

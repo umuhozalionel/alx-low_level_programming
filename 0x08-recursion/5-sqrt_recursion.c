@@ -5,7 +5,7 @@ int actual_sqrt_recursion(int n, int i);
  * _sqrt_recursion - returns the natural square root of a number
  * @n: number to calculate the square root of n
  *
- * Return: the resulting square root
+ * Return: the square root result
  */
 
 int _sqrt_recursion(int n)

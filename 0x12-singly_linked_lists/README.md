@@ -1,1 +1,1 @@
-Singly linked lists README.md
+Singly listed README.md

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * first - Main function is executed
+ * first - function to be executed after main
  */
 
 void first(void) __attribute__ ((constructor));

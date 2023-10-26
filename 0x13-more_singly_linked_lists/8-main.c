@@ -8,7 +8,9 @@
  */ int main(void)
 {
 	listint_t *head;
-	int sum; head = NULL;
+	int sum; 
+
+	head = NULL;
 
 	add_nodeint_end(&head, 0);
 	add_nodeint_end(&head, 1);

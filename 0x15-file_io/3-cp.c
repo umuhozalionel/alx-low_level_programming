@@ -3,6 +3,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <fcntl.h>
+#include <stdio.h>
 
 void check_IO_stat(int stat, int fd, char *filename, char mode);
 /**
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
 {
 	int src, dest, n_read = 1024, wrote, close_src, close_dest;
 	unsigned int mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
-	char buffe[1024];
+	char buffer[1024];
 
 	if (argc != 3)
 	{
@@ -39,7 +40,7 @@ int main(int argc, char *argv[])
 	}
 	close_src = close(src);
 	check_IO_stat(close_src, src, NULL, 'C');
-	close_dest = clone(dest);
+	close_dest = close(dest);
 	check_IO_stat(close_dest, dest, NULL, 'C');
 	return (0);
 }
